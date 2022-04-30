@@ -98,7 +98,6 @@ function HackingMinigame(success)
 	end
 end
 
--- Function for Drugs Choose Menu:
 function ChooseDrugMenu()
 	local player = PlayerPedId()
 	local elements = {}
@@ -140,7 +139,7 @@ function ChooseDrugMenu()
 	end)
 end
 
--- Event to browse through available locations:
+
 RegisterNetEvent("skill_drugs:BrowseAvailableJobs")
 AddEventHandler("skill_drugs:BrowseAvailableJobs",function(spot,drugType,minReward,maxReward)
 	local id = math.random(1,#Config.Jobs)
