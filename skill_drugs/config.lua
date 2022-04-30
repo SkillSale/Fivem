@@ -99,7 +99,7 @@ Config.WeedSale = {
 Config.DrugEffects = {
 	{ 
 		UsableItem 				= "coke1g",						
-		ProgressBarText			= "Fume de la Cocaïne",		
+		ProgressBarText			= "Fume du Crack",		
 		UsableTime 				= 5000,							
 		EffectDuration 			= 30,							
 		FasterSprint 			= true,							
